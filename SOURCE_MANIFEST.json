@@ -31,8 +31,8 @@
   },
   {
     "path": "fixtures/conflict-example.json",
-    "bytes": 756,
-    "sha256": "4544abd2271804e6fe3763c70f28111bad2c1d69e003e2fefa347d88d4b06a11"
+    "bytes": 759,
+    "sha256": "0ea325d375beed248373c1165febff6f86d8f65280d164f7e5469a729d7b1932"
   },
   {
     "path": "fixtures/evaluation.json",
@@ -41,8 +41,8 @@
   },
   {
     "path": "fixtures/meta-pilot01-recorded.json",
-    "bytes": 2952,
-    "sha256": "0f810c63475203c6ccf17a4da26c3d9601556f6dd41b644955bb4bf5926ed69b"
+    "bytes": 2953,
+    "sha256": "646cef96cc87a123ba48d5f8af31138affea495ebbf2d5f0ae94fca001590c32"
   },
   {
     "path": "fixtures/prose-evaluation-v1.json",
@@ -56,8 +56,8 @@
   },
   {
     "path": "fixtures/replay.json",
-    "bytes": 2138,
-    "sha256": "e9b105505166e061ce9bb65f14ee9b936c30c4898b1bbda91bcdc26871c70acf"
+    "bytes": 2139,
+    "sha256": "45c20135f06831e5c2c0374bde05740e2c8fceb25d7f7fb61046472a2d2b6c48"
   },
   {
     "path": "ops/__init__.py",
@@ -161,8 +161,8 @@
   },
   {
     "path": "static/index.html",
-    "bytes": 12254,
-    "sha256": "28bbdcfdf6eab50d25f825166852be776c1ed0403c96b6538db1cc0b3a3b4e49"
+    "bytes": 12255,
+    "sha256": "c8f9c73db690626083aaaaaaeef5b9485a954b36674668e7eb094d7c2dd948a4"
   },
   {
     "path": "tests/browser_smoke.py",
