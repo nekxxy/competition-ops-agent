@@ -1,0 +1,12 @@
+{
+  "title": "Synthetic conflict and unknowns",
+  "public_data_confirmed": true,
+  "before": {
+    "url": "https://example.org/parser-challenge",
+    "text": "Registration closes 2026-11-01T23:59:00+01:00.\nFinal submissions close 2026-11-20T23:59:00+01:00.\nPrizes: USD 1,000 total.\nEligibility: Independent adults may enter.\nAI policy: Coding assistance allowed with disclosure.\nCode license: MIT for original code."
+  },
+  "after": {
+    "url": "https://example.org/parser-challenge",
+    "text": "Registration closes 2026-11-03T23:59:00+01:00.\nRegistration closes 2026-11-04T23:59:00+01:00.\nFinal submissions close next Friday at midnight.\nAI policy: AI assistance is prohibited.\nEligibility: Students enrolled at Example University only."
+  }
+  }
