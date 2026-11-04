@@ -1,0 +1,62 @@
+{
+  "bundle": {
+    "title": "Recorded Meta pilot: synthetic rule extraction",
+    "public_data_confirmed": true,
+    "before": {
+      "url": "https://example.org/synthetic-meta-pilot",
+      "text": "No earlier snapshot was supplied for this single-source pilot. This empty baseline is not an earlier policy.",
+      "claims": []
+    },
+    "after": {
+      "url": "https://example.org/synthetic-meta-pilot",
+      "text": "We welcome independent adults worldwide. Registration remains open until 2026-11-03T23:59:00+01:00. The final project must arrive by 2026-11-22T23:59:00+01:00. The award is USD 1,000 total, split among the winning teams.",
+      "claims": [
+        {
+          "field": "eligibility",
+          "quote": "We welcome independent adults worldwide.",
+          "value": "independent adults worldwide"
+        },
+        {
+          "field": "registration_deadline",
+          "quote": "Registration remains open until 2026-11-03T23:59:00+01:00.",
+          "value": "2026-11-03T23:59:00+01:00"
+        },
+        {
+          "field": "submission_deadline",
+          "quote": "The final project must arrive by 2026-11-22T23:59:00+01:00.",
+          "value": "2026-11-22T23:59:00+01:00"
+        },
+        {
+          "field": "prize",
+          "quote": "The award is USD 1,000 total, split among the winning teams.",
+          "value": "USD 1,000"
+        }
+      ]
+    }
+  },
+  "response": {
+    "id": "chatcmpl-01a1a1f2-d968-7503-b547-670633c43c73",
+    "model": "muse-spark-1.3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "message": {
+          "content": "{\"claims\": [{\"field\": \"eligibility\", \"quote\": \"We welcome independent adults worldwide.\", \"value\": \"independent adults worldwide\"}, {\"field\": \"registration_deadline\", \"quote\": \"Registration remains open until 2026-11-03T23:59:00+01:00.\", \"value\": \"2026-11-03T23:59:00+01:00\"}, {\"field\": \"submission_deadline\", \"quote\": \"The final project must arrive by 2026-11-22T23:59:00+01:00.\", \"value\": \"2026-11-22T23:59:00+01:00\"}, {\"field\": \"prize\", \"quote\": \"The award is USD 1,000 total, split among the winning teams.\", \"value\": \"USD 1,000\"}]}"
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 1778,
+      "prompt_tokens": 259,
+      "total_tokens": 2037,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1591
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  "captured_at": "2026-11-03T15:06:49.640839+00:00",
+  "note": "One recorded direct Meta Standard call on developer-authored synthetic p01, not an independent benchmark. Replaying here makes no new API call. No earlier source exists; blank baseline is illustrative. Strict field/value gold:3TP1FP1FN. Prize value lost the word total; full source quote retained. Input259, output1778 including1591reasoning. US$0.00788025 listed token cost, not INR settlement or tax."
+}
