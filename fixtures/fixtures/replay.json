@@ -1,0 +1,70 @@
+{
+  "label": "Synthetic demo competition. No actual event or entry.",
+  "url": "https://example.org/synthetic-challenge",
+  "before": "Registration closes 2026-11-01T23:59:00+01:00. Final submissions close 2026-11-20T23:59:00+01:00. Prizes: USD 1,000 total. Independent adults may enter. AI coding assistance is allowed with disclosure. Original code must use MIT license.",
+  "after": "Registration closes 2026-11-03T23:59:00+01:00. Final submissions close 2026-11-22T23:59:00+01:00. Prizes: USD 1,000 total. Independent adults may enter. AI coding assistance is allowed with disclosure. Original code must use MIT license.",
+  "claims_before": [
+    [
+      "registration_deadline",
+      "2026-11-01T23:59:00+01:00",
+      "Registration closes 2026-11-01T23:59:00+01:00."
+    ],
+    [
+      "submission_deadline",
+      "2026-11-20T23:59:00+01:00",
+      "Final submissions close 2026-11-20T23:59:00+01:00."
+    ],
+    [
+      "prize",
+      "USD 1,000 total",
+      "Prizes: USD 1,000 total."
+    ],
+    [
+      "eligibility",
+      "Independent adults may enter",
+      "Independent adults may enter."
+    ],
+    [
+      "automation",
+      "AI coding assistance is allowed with disclosure",
+      "AI coding assistance is allowed with disclosure."
+    ],
+    [
+      "license",
+      "Original code must use MIT license",
+      "Original code must use MIT license."
+    ]
+  ],
+  "claims_after": [
+    [
+      "registration_deadline",
+      "2026-11-03T23:59:00+01:00",
+      "Registration closes 2026-11-03T23:59:00+01:00."
+    ],
+    [
+      "submission_deadline",
+      "2026-11-22T23:59:00+01:00",
+      "Final submissions close 2026-11-22T23:59:00+01:00."
+    ],
+    [
+      "prize",
+      "USD 1,000 total",
+      "Prizes: USD 1,000 total."
+    ],
+    [
+      "eligibility",
+      "Independent adults may enter",
+      "Independent adults may enter."
+    ],
+    [
+      "automation",
+      "AI coding assistance is allowed with disclosure",
+      "AI coding assistance is allowed with disclosure."
+    ],
+    [
+      "license",
+      "Original code must use MIT license",
+      "Original code must use MIT license."
+    ]
+  ]
+}
